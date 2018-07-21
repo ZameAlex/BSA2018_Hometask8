@@ -14,11 +14,13 @@
     border-bottom-width: 1px;
     border-bottom-style: solid; 
     border-color: cornflowerblue;
-    padding-bottom:2px; 
+    padding-bottom:5px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
 }
-
+.author-info h2{
+    text-align: center;
+}
 .author-info img {
     max-width: 50%;
     max-height: 20%;
@@ -45,7 +47,7 @@ li {
 
 
 .aside .social {
-    padding-bottom: 2px;
+    padding-bottom: 5px;
     border-bottom-width: 1px;
     border-bottom-style: solid; 
     border-color: cornflowerblue;    
@@ -89,7 +91,7 @@ li {
     display: flex;
     align-self: stretch;
     flex-direction: row;
-    padding: 2px;
+    padding: 5px;
     border-bottom-width: 1px;
     border-bottom-style: solid; 
     border-color: cornflowerblue; 
@@ -112,7 +114,7 @@ li {
     grid-template-columns: repeat(auto-fill, 50px);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    padding: 2px;
+    padding: 5px;
     border-bottom-width: 1px;
     border-bottom-style: solid; 
     border-color: cornflowerblue; 
@@ -124,7 +126,7 @@ li {
 
 
 .last-comments {
-    padding: 2px;
+    padding: 5px;
     border-bottom-width: 1px;
     border-bottom-style: solid; 
     border-color: cornflowerblue; 
