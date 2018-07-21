@@ -18,9 +18,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
 }
-.author-info h2{
+.author-info h2 {
     text-align: center;
 }
+
 .author-info img {
     max-width: 50%;
     max-height: 20%;
@@ -109,11 +110,8 @@ li {
 }
 
 .tags {
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 50px);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    display: flex;
+    flex-direction: row;
     padding: 5px;
     border-bottom-width: 1px;
     border-bottom-style: solid; 
@@ -122,6 +120,20 @@ li {
 
 .tags a {
     text-decoration: none;
+}
+
+.tags  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.tags li {
+    float: left;
+    display: block;
+    font-size: 20px;
+    margin: 5px;
 }
 
 
